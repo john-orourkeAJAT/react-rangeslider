@@ -120,5 +120,9 @@
     "moduleNameMapper": {
       ".*\\.less$": "<rootDir>/src/"
     }
-  }
+  },
+  "precommit": [
+    "build"
+  ]
+
 }
